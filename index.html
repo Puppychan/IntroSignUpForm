@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- css file -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- font size -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Mea+Culpa&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <div class="container flex">
+    <div class="flex col-50 flex-center">
+      <div class="flex flex-center-col container__title">
+        <h1 class="container__title-head">Learn to code by watching others</h1>
+        <p class="container__title-subhead">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+      </div>
+    </div>
+    <div class="flex col-50 flex-center">
+      <div class="flex container__content flex-center-col">
+        <button class="container__content-try border-radius col-100 shadow-out btn"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+        <!-- <div class=""> -->
+          <form action="" class="container__content-form border-radius col-100 flex flex-center-col shadow-out">
+            <div class="input__wrapper">
+              <input type="text" class="content__form-firstname" placeholder="First Name">
+              <img class="error-symbol" src="./assets/fonts/circle-exclamation-solid.svg" alt="error symbol">
+            </div>
+  
+            <div class="input__wrapper">
+              <input type="text" class="content__form-lastname" placeholder="Last Name">
+              <img class="error-symbol" src="./assets/fonts/circle-exclamation-solid.svg" alt="error symbol">
+            </div>
+  
+            <div class="input__wrapper">
+              <input type="email" class="content__form-mail" placeholder="Email Address">
+              <img class="error-symbol" src="./assets/fonts/circle-exclamation-solid.svg" alt="error symbol">
+            </div>
+
+            <div class="input__wrapper">
+              <input type="password" class="content__form-pass" placeholder="Password">
+              <img class="error-symbol" src="./assets/fonts/circle-exclamation-solid.svg" alt="error symbol">
+            </div>
+
+            <input type="submit" value="Claim your free trial " class="content__form-submit btn">
+            
+            <p class="content__form-instruct">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> </p>
+          </form>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="./script/scrip.js"></script>
+</body>
+</html>
