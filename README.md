@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution URL](https://www.frontendmentor.io/solutions/order-summary-component-challenge-hub-DDUHwjigY)
-- Live Site URL: [My product URL]()
+- Solution URL: [My solution URL](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub/intro-component-with-signup-form-Byfl6fZQq)
+- Live Site URL: [My product URL](https://puppychan.github.io/IntroSignUpForm/)
 
 ## My process
 
