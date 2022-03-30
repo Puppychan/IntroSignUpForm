@@ -48,7 +48,7 @@ submitBtn.addEventListener("click", submitEvent => {
         removeYet = false;
     // }
     
-});
+}, {once: true});
 
 formInputs.forEach(element => {
     element.addEventListener("focus", e => {
